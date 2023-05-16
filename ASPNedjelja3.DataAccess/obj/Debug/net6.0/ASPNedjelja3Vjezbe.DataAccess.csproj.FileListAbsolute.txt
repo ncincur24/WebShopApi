@@ -1,0 +1,34 @@
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.deps.json
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.runtimeconfig.json
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.pdb
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.AssemblyReference.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.AssemblyInfoInputs.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.AssemblyInfo.cs
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.CopyComplete
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\refint\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.pdb
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.genruntimeconfig.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ref\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.deps.json
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.runtimeconfig.json
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.pdb
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.AssemblyReference.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.AssemblyInfoInputs.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.AssemblyInfo.cs
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.csproj.CopyComplete
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\refint\ASPNedjelja3Vjezbe.DataAccess.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.pdb
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ASPNedjelja3Vjezbe.DataAccess.genruntimeconfig.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.DataAccess\obj\Debug\net6.0\ref\ASPNedjelja3Vjezbe.DataAccess.dll

@@ -1,0 +1,24 @@
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.deps.json
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.csproj.AssemblyReference.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.AssemblyInfoInputs.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.AssemblyInfo.cs
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\refint\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ref\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.deps.json
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\bin\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.csproj.AssemblyReference.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.AssemblyInfoInputs.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.AssemblyInfo.cs
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.csproj.CoreCompileInputs.cache
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\refint\ASPNedjelja3Vjezbe.Domain.dll
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ASPNedjelja3Vjezbe.Domain.pdb
+C:\Users\neman\OneDrive\Радна површина\SKOLA\Treca godina\ASP\ASPNedjelja3Vjezbe\ASPNedjelja3.Domain\obj\Debug\net6.0\ref\ASPNedjelja3Vjezbe.Domain.dll

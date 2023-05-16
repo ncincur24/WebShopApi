@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASPNedjelja3Vjezbe.Api.props" />
+</Project>

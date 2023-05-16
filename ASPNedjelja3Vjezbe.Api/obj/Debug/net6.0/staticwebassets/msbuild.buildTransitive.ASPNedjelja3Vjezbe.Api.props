@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ASPNedjelja3Vjezbe.Api.props" />
+</Project>
