@@ -40,6 +40,32 @@
           }
         }
       },
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/11.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -2280,6 +2306,19 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "ASPNedjelja3Vjezbe.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASPNedjelja3Vjezbe.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ASPNedjelja3Vjezbe.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASPNedjelja3Vjezbe.Application.dll": {}
+        }
+      },
       "ASPNedjelja3Vjezbe.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2304,6 +2343,23 @@
         },
         "runtime": {
           "bin/placeholder/ASPNedjelja3Vjezbe.Domain.dll": {}
+        }
+      },
+      "ASPNedjelja3Vjezbe.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASPNedjelja3Vjezbe.Application": "1.0.0",
+          "ASPNedjelja3Vjezbe.DataAccess": "1.0.0",
+          "ASPNedjelja3Vjezbe.Domain": "1.0.0",
+          "Dapper": "2.0.123",
+          "FluentValidation": "11.5.2"
+        },
+        "compile": {
+          "bin/placeholder/ASPNedjelja3Vjezbe.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASPNedjelja3Vjezbe.Implementation.dll": {}
         }
       }
     }
@@ -2351,6 +2407,47 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "FluentValidation/11.5.2": {
+      "sha512": "kj/hW/iusp2zq1Vt1YPLgDj6UG0DhoJXGkLwjLwm3j7vUtRF8DVA5vHJfItG3BxDjLWJUR2pvw8fK7rnuysZNA==",
+      "type": "package",
+      "path": "fluentvalidation/11.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.5.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -7239,6 +7336,11 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "ASPNedjelja3Vjezbe.Application/1.0.0": {
+      "type": "project",
+      "path": "../ASPNedjelja3Vjezbe.Application/ASPNedjelja3Vjezbe.Application.csproj",
+      "msbuildProject": "../ASPNedjelja3Vjezbe.Application/ASPNedjelja3Vjezbe.Application.csproj"
+    },
     "ASPNedjelja3Vjezbe.DataAccess/1.0.0": {
       "type": "project",
       "path": "../ASPNedjelja3.DataAccess/ASPNedjelja3Vjezbe.DataAccess.csproj",
@@ -7248,11 +7350,19 @@
       "type": "project",
       "path": "../ASPNedjelja3.Domain/ASPNedjelja3Vjezbe.Domain.csproj",
       "msbuildProject": "../ASPNedjelja3.Domain/ASPNedjelja3Vjezbe.Domain.csproj"
+    },
+    "ASPNedjelja3Vjezbe.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../ASPNedjelja3Vjezbe.Implementation/ASPNedjelja3Vjezbe.Implementation.csproj",
+      "msbuildProject": "../ASPNedjelja3Vjezbe.Implementation/ASPNedjelja3Vjezbe.Implementation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ASPNedjelja3Vjezbe.Application >= 1.0.0",
       "ASPNedjelja3Vjezbe.DataAccess >= 1.0.0",
+      "ASPNedjelja3Vjezbe.Domain >= 1.0.0",
+      "ASPNedjelja3Vjezbe.Implementation >= 1.0.0",
       "Bogus >= 34.0.2",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -7264,11 +7374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
+      "projectUniqueName": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
       "projectName": "ASPNedjelja3Vjezbe.Api",
-      "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
+      "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
       "packagesPath": "C:\\Users\\neman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\obj\\",
+      "outputPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7284,14 +7394,24 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj"
+            "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj"
+            },
+            "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj": {
+              "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj"
+            },
+            "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Application\\ASPNedjelja3Vjezbe.Application.csproj": {
+              "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Application\\ASPNedjelja3Vjezbe.Application.csproj"
+            },
+            "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Implementation\\ASPNedjelja3Vjezbe.Implementation.csproj": {
+              "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Implementation\\ASPNedjelja3Vjezbe.Implementation.csproj"
             }
           }
         }
@@ -7334,7 +7454,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

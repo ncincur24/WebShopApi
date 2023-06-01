@@ -10,7 +10,7 @@ namespace ASPNedjelja3.DataAccess
         #endregion
 
         #region Constructor
-        public Vjezbe3DbContext(IApplicationUser user)
+        public Vjezbe3DbContext(IApplicationUser user = null)
         {
             this.User = user;
         }

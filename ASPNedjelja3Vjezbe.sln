@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.Api", "ASPNedjelja3Vjezbe.Api\ASPNedjelja3Vjezbe.Api.csproj", "{B154C80E-C0F1-4B49-B0A7-ACD4DC34ED1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNedjelja3Vjezbe.Api", "ASPNedjelja3Vjezbe.Api\ASPNedjelja3Vjezbe.Api.csproj", "{B154C80E-C0F1-4B49-B0A7-ACD4DC34ED1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.DataAccess", "ASPNedjelja3.DataAccess\ASPNedjelja3Vjezbe.DataAccess.csproj", "{74F8AA22-00F2-4AB0-8CED-0078D9BCF450}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNedjelja3Vjezbe.DataAccess", "ASPNedjelja3.DataAccess\ASPNedjelja3Vjezbe.DataAccess.csproj", "{74F8AA22-00F2-4AB0-8CED-0078D9BCF450}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.Domain", "ASPNedjelja3.Domain\ASPNedjelja3Vjezbe.Domain.csproj", "{76A978B6-440D-4842-8AEB-E9FF0EA59FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNedjelja3Vjezbe.Domain", "ASPNedjelja3.Domain\ASPNedjelja3Vjezbe.Domain.csproj", "{76A978B6-440D-4842-8AEB-E9FF0EA59FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.Tests", "ASPNedjelja3Vjezbe.Tests\ASPNedjelja3Vjezbe.Tests.csproj", "{01B0A3D2-3857-402D-A091-278B64AB08E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNedjelja3Vjezbe.Tests", "ASPNedjelja3Vjezbe.Tests\ASPNedjelja3Vjezbe.Tests.csproj", "{01B0A3D2-3857-402D-A091-278B64AB08E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.Application", "ASPNedjelja3Vjezbe.Application\ASPNedjelja3Vjezbe.Application.csproj", "{2F99E1EE-1818-4739-BB65-AA78B4BA6D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNedjelja3Vjezbe.Implementation", "ASPNedjelja3Vjezbe.Implementation\ASPNedjelja3Vjezbe.Implementation.csproj", "{A48BD463-853B-40F3-813B-C0BF1FDEDFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{01B0A3D2-3857-402D-A091-278B64AB08E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B0A3D2-3857-402D-A091-278B64AB08E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B0A3D2-3857-402D-A091-278B64AB08E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F99E1EE-1818-4739-BB65-AA78B4BA6D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F99E1EE-1818-4739-BB65-AA78B4BA6D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F99E1EE-1818-4739-BB65-AA78B4BA6D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F99E1EE-1818-4739-BB65-AA78B4BA6D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48BD463-853B-40F3-813B-C0BF1FDEDFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48BD463-853B-40F3-813B-C0BF1FDEDFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48BD463-853B-40F3-813B-C0BF1FDEDFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48BD463-853B-40F3-813B-C0BF1FDEDFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

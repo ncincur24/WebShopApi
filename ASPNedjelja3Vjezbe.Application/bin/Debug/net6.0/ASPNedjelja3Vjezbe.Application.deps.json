@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ASPNedjelja3Vjezbe.Application/1.0.0": {
+        "dependencies": {
+          "ASPNedjelja3Vjezbe.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ASPNedjelja3Vjezbe.Application.dll": {}
+        }
+      },
+      "ASPNedjelja3Vjezbe.Domain/1.0.0": {
+        "runtime": {
+          "ASPNedjelja3Vjezbe.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASPNedjelja3Vjezbe.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASPNedjelja3Vjezbe.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

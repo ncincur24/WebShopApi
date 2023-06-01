@@ -13,6 +13,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ASPNedjelja3.DataAccess\ASPNedjelja3Vjezbe.DataAccess.csproj" />
+    <ProjectReference Include="..\ASPNedjelja3.Domain\ASPNedjelja3Vjezbe.Domain.csproj" />
+    <ProjectReference Include="..\ASPNedjelja3Vjezbe.Application\ASPNedjelja3Vjezbe.Application.csproj" />
+    <ProjectReference Include="..\ASPNedjelja3Vjezbe.Implementation\ASPNedjelja3Vjezbe.Implementation.csproj" />
   </ItemGroup>
 
 </Project>

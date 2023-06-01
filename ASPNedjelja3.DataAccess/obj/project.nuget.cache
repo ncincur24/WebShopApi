@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7kye53PipPq0wD2QBgB0VmmdOCURA5i9L2EonEs2yb4OYyHrtSfA5hpQRHPlnL7edR7m/m0QwDU1/cVFXao0gQ==",
+  "dgSpecHash": "k7s6mC6/XlwhY6hH3y5d4Bcju7zzjcly9I940avhKO2CD+Pt4PC2AnRljxb66QVRJYOs6y5Rav6nLsQ8ek4qnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.DataAccess\\ASPNedjelja3Vjezbe.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neman\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

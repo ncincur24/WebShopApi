@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P9Hq1+WUAnzJnEjONUKOPkUhaamQXqROGWFyQbNTBK6ySzYm3cbFXub79dmUxRVY+V95Ff/91gNaUN479Md3IQ==",
+  "dgSpecHash": "hVDndedMTIejz2raqlriztoWcO0rjW/oDSnys5OKI2Jehl9qlUv/xfaF0jpmXtK7ibX1h5+F0wEeb2tKCT4J9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
+  "projectFilePath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3Vjezbe.Api\\ASPNedjelja3Vjezbe.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neman\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

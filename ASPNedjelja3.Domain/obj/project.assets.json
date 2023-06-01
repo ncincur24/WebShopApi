@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj",
       "projectName": "ASPNedjelja3Vjezbe.Domain",
-      "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj",
+      "projectPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\ASPNedjelja3Vjezbe.Domain.csproj",
       "packagesPath": "C:\\Users\\neman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\obj\\",
+      "outputPath": "C:\\Users\\neman\\OneDrive\\Радна површина\\SKOLA\\Treca godina\\ASP\\Vjezbe\\ASPNedjelja3Vjezbe\\ASPNedjelja3.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

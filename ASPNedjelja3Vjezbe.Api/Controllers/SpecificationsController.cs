@@ -1,6 +1,8 @@
 ﻿using ASPNedjelja3.DataAccess;
 using ASPNedjelja3Vjezbe.Api.DTO;
 using ASPNedjelja3Vjezbe.Api.DTO.Searches;
+using ASPNedjelja3Vjezbe.Application.Logging;
+using ASPNedjelja3Vjezbe.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using static ASPNedjelja3Vjezbe.Api.Extensions.StringExtensions;
@@ -55,7 +57,7 @@ namespace ASPNedjelja3Vjezbe.Api.Controllers
         {
             var guid = Guid.NewGuid();
 
-            logger.LogException(e, guid);
+            logger.Log(e);
 
             return StatusCode(StatusCodes.Status500InternalServerError, new { message = "There was an error with proccessing your request. Please reach out to our support using thus code " + guid.ToString() });
         }
@@ -117,8 +119,59 @@ namespace ASPNedjelja3Vjezbe.Api.Controllers
 
         // POST api/<SpecificationController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] CreateSpecificationDTO dto)
         {
+            try
+            {
+                var errors = new List<string>();
+                if (string.IsNullOrEmpty(dto.Name))
+                {
+                    errors.Add("Name is required paramater.");
+                }
+                else
+                {
+                    if (context.Specifications.Any(x => x.Name == dto.Name))
+                    {
+                        errors.Add("Specification with this name already exists");
+                    }
+                    else
+                    {
+                        if (dto.Values.Count() != dto.Values.Distinct().Count())
+                        {
+                            errors.Add("Duplicatetd elements are not allowed");
+                        }
+                    }
+                }
+
+                if (dto.Values != null && dto.Values.Any())
+                {
+                    if (dto.Values.Any(x => string.IsNullOrEmpty(x)))
+                    {
+                        errors.Add("There are empty epecifications");
+                    }
+                }
+
+                if (errors.Any())
+                {
+                    return UnprocessableEntity(errors);
+                }
+                var specification = new Specification
+                {
+                    Name = dto.Name,
+                    SpecificationValues = dto.Values.Select(x => new SpecificationValue
+                    {
+                        Value = x,
+                    }).ToList()
+                };
+                context.Specifications.Add(specification);
+                context.SaveChanges();
+                return StatusCode(StatusCodes.Status201Created);
+            }
+            catch (Exception ex)
+            {
+                return HandleError(ex);
+                throw;
+            }
         }
 
         // PUT api/<SpecificationController>/5
@@ -129,8 +182,30 @@ namespace ASPNedjelja3Vjezbe.Api.Controllers
 
         // DELETE api/<SpecificationController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            try
+            {
+                var specification = context.Specifications.Find(id);
+                if (specification == null || !specification.IsActive)
+                {
+                    return NotFound();
+                }
+                var categorySpec = specification.CategorySpecifications;
+                context.CategorySpecifications.RemoveRange(categorySpec);
+                
+                var values=specification.SpecificationValues;
+                context.SpecificationValues.RemoveRange(values);
+                context.Specifications.Remove(specification);
+
+                context.SaveChanges();
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return HandleError(ex);
+                throw;
+            }
         }
     }
 }
